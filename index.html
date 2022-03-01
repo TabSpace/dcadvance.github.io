@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="HandheldFriendly" content="true">
+<meta name="apple-mobile-web-app-title" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link rel="apple-touch-icon" href="/imgs/android-chrome-512x512.png">
+<link rel="icon" size="192x192" href="/imgs/android-chrome-192x192.png">
+<link rel="shortcut icon" href="/imgs/favicon.ico">
+<link rel="dns-prefetch" href="https://img-1304915546.file.myqcloud.com">
+<title>DCADVANCE</title>
+</head>
+<body>
+<script>
+!(function(){
+  var defaultLang = 'zh';
+  var langList = ['zh', 'de'];
+  var curLang = localStorage.getItem('current-locale') || defaultLang;
+  if (langList.indexOf(curLang) < 0) {
+    curLang = defaultLang;
+  }
+  var defaultPath = `/${curLang}/`;
+  window.location.href = defaultPath;
+})();
+</script>
+</body>
+</html>
